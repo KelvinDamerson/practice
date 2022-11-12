@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e4a980c841.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Practice</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Programadores venezuela <i class="fa-solid fa-fire-flame-curved"></i></h1>
+        <div class="row">
+            <div class="calculator">
+                <input id="resultado" placeholder="mobile desktop" class="visor shadow-lg" type="number">
+            </div>
+            <div class="botones">
+                <button id="borrar-todo" class="btn btn-peq bg-warning"">C</button>
+                <button id=" pocentaje" class="btn btn-peq"">%</button>
+                <button id=" dividir" class=" btn btn-peq"">/</button>
+                <button id=" multiplicar" class="btn btn-peq"">x</button>
+            </div>
+            
+        <div class=" botones">
+                    <button id="siete" class="btn btn-peq"">7</button>
+            <button id=" ocho" class=" btn btn-peq"">8</button>
+            <button id=" nueve" class="btn btn-peq"">9</button>
+            <button id=" restar" class=" btn btn-peq"">-</button>
+        </div>
+                <div class=" botones">
+                        <button id="cuatro" class="btn btn-peq"">4</button>
+                    <button id=" cinco" class="btn btn-peq"">5</button>
+                    <button id=" seis" class="btn btn-peq"">6</button>
+                    <button id=" sumar" class=" btn btn-peq"">+</button>
+                </div>
+            <div class=" botones">
+                            <button id="uno" class="btn btn-peq ">1</button>
+                            <button id="dos" class=" btn btn-peq ">2</button>
+                            <button id="tres" class="btn btn-peq ">3</button>
+                            <button id="delete" class="btn btn-peq bg-danger ">
+                                <i class="fa-solid fa-delete-left"></i>
+                            </button>
+            </div>
+            <div class="botones">
+                <button id="cero" class="btn btn-0">0</button>
+                <button id="punto" class=" btn btn-peq ">.</button>
+                <button id="igual" class="btn btn-peq ">=</button>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container bg-dark ">
+        <br>
+        <h1 class="text-center"> <strong> Programming Venezuela </strong></h1>
+        <div class="calculator">
+            <input id="resultados" placeholder="Desktop" class="visor shadow-lg" type="number">
+        </div>
+        <div class="row fila">
+            <div id="borrar-todo" class="col-3 btn btn-c btn-outline-light">C</div>
+            <div id="porcentaje" class="col-3 btn btn-peque btn-outline-light">%</div>
+            <div id="dividir" class="col-3 btn btn-peque btn-outline-light">/</div>
+            <div id="multiplicar" class="col-3 btn btn-peque btn-outline-light">X</div>
+        </div>
+
+        <div class="row fila">
+            <div id="siete" class="col-3 btn btn-peque btn-outline-light">7</div>
+            <div id="ocho" class="col-3 btn btn-peque btn-outline-light">8</div>
+            <div id="nueve" class="col-3 btn btn-peque btn-outline-light">9</div>
+            <div id="restar" class="col-3 btn btn-peque btn-outline-light">-</div>
+        </div>
+        <div class="row fila">
+            <div id="cuatro" class="col-3 btn btn-peque btn-outline-light">4</div>
+            <div id="cinco" class="col-3 btn btn-peque btn-outline-light">5</div>
+            <div id="seis" class="col-3 btn btn-peque btn-outline-light">6</div>
+            <div id="sumar" class="col-3 btn btn-peque btn-outline-light">+</div>
+        </div>
+        <div class="row fila">
+            <div id="uno" class="col-3 btn btn-peque btn-outline-light">1</div>
+            <div id="dos" class="col-3 btn btn-peque btn-outline-light">2</div>
+            <div id="tres" class="col-3 btn btn-peque btn-outline-light">3</div>
+            <div id="delet" class="col-3 btn btn-peque btn-outline-light"><i class="fa-solid fa-delete-left"></i></div>
+        </div>
+        <div class="row fila">
+            <div id="cero" class="col-6 btn-00 btn-outline-light">0</div>
+            <div id="punto" class="col-3 btn btn-peque btn-outline-light">.</div>
+            <div id="igual" class="col-3 btn btn-peque btn-outline-light">=</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+/*Styles*/
+html {
+    box-sizing: border-box;
+
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: black;
+    margin: 50px auto;
+
+
+    width: 100%;
+
+
+}
+h1 {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+h1 i {
+    color: darkred;
+
+}
+.container {
+    background-color: rgba(35, 163, 163, 0.63);
+    height: 580px;
+    width: 550px;
+    max-width: 100%;
+    align-items: baseline;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+.calculator {
+    display: flex;
+}
+.visor {
+    height: 100px;
+    width: 95%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(127, 255, 212, 0.452);
+    font-size: 35px;
+    text-align: end;
+}
+.botones {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-evenly;
+
+}
+.btn-peq {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 100px;
+    max-height: 40px;
+    background-color: lightblue;
+    border-radius: 150px;
+    border: none;
+    font-weight: 600;
+
+}
+.btn-0 {
+    padding: 10px 10px;
+    margin: 5px 10px;
+    width: 220px;
+    height: 50px;
+    max-height: 50px;
+    border-radius: 150px;
+    border: none;
+    background-color: rgba(127, 255, 212, 0.452);
+}
+
+#delete i {
+    color: lightblue;
+    font-size: 20px;
+}
+
+
+/** CALCULADORA 2 QUE VIVA VZLA EN ESA MIERDD CABALLERO **/
+/** SOLO PARA PANTALLAS GRANDES **/
+
+.btn {
+    margin: 10px 10px;
+
+}
+
+.btn-c {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 100px;
+    max-height: 40px;
+    background-color: white;
+    border-radius: 150px;
+    border: none;
+    font-weight: 600;
+    color: black;
+}
+
+.btn-peque {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 100px;
+    max-height: 40px;
+    background-color: rgb(7, 41, 53);
+    border-radius: 150px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-00 {
+    padding: 10px 10px;
+    margin: 5px 10px;
+    margin-right: 23px;
+    width: 220px;
+    height: 50px;
+    max-height: 50px;
+    border-radius: 150px;
+    border: none;
+    background-color: rgba(19, 102, 74, 0.452);
+    text-align: center;
+    color: white;
+}
+
+.fila{
+justify-content: space-evenly;
+}
+#delet{
+    background-color: rgba(19, 102, 74, 0.452)
+}
+#resultados {
+    background-color: rgba(19, 102, 74, 0.452);
+
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 5px;
+}
+
+
+
